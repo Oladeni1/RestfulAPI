@@ -1,7 +1,7 @@
 package GetRequest;
 
 import org.testng.Assert;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
@@ -37,7 +37,7 @@ public class GetData
    		System.out.println("The respose time"+resp.getTime());
    				
 }
-    @Test
+   @Test
    	public void testheader() 
    	{
    		
